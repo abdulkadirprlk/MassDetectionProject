@@ -1,0 +1,26 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment
+ML_env/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore model files and checkpoints
+exported_models/
+pre-trained-models/
+models/
+*.h5
+*.ckpt
+
+# Ignore dataset files
+dataset/
+
+# Ignore IDE settings
+.idea/
